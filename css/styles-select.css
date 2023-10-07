@@ -1,0 +1,95 @@
+<<<<<<< HEAD
+    /* --------------------- ENCABEZADO --------------------- */
+    /* Estilo para la barra de navegación */
+    .navbar {
+        background-color: black;
+        /* Color de fondo similar al encabezado */
+        padding: 10px;
+        /* Espacio interior para separar el contenido */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    /* Estilo para los enlaces del menú de navegación */
+    .nav-link {
+        color: white;
+        /* Color blanco */
+        font-family: Consolas, monospace;
+        /* Fuente Consolas o similar */
+    }
+
+    .nav-link:hover {
+        color: red;
+        /* Cambia el color del texto a rojo cuando el mouse se coloca sobre el enlace */
+    }
+    /* --------------------- CARDS SELECT --------------------- */
+    .card-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-group {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px; /* Espacio entre grupos de tarjetas */
+        margin-top: 10px;
+    }
+    
+    .card {
+        max-width: 18rem;
+        margin: 0 10px; /* Espacio entre tarjetas dentro del grupo */
+        border-top: 10px;
+    }
+    
+
+=======
+    /* --------------------- ENCABEZADO --------------------- */
+    /* Estilo para la barra de navegación */
+    .navbar {
+        background-color: black;
+        /* Color de fondo similar al encabezado */
+        padding: 10px;
+        /* Espacio interior para separar el contenido */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    /* Estilo para los enlaces del menú de navegación */
+    .nav-link {
+        color: white;
+        /* Color blanco */
+        font-family: Consolas, monospace;
+        /* Fuente Consolas o similar */
+    }
+
+    .nav-link:hover {
+        color: red;
+        /* Cambia el color del texto a rojo cuando el mouse se coloca sobre el enlace */
+    }
+    /* --------------------- CARDS SELECT --------------------- */
+    .card-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-group {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px; /* Espacio entre grupos de tarjetas */
+        margin-top: 10px;
+    }
+    
+    .card {
+        max-width: 18rem;
+        margin: 0 10px; /* Espacio entre tarjetas dentro del grupo */
+        border-top: 10px;
+    }
+    
+
+>>>>>>> 2b66cd9 (Pag404)

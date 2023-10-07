@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+"Nuestra página web es tu destino definitivo para aprender lenguajes de programación y adquirir habilidades esenciales en un mundo impulsado por la tecnología. 
+Estamos aquí para apoyarte en cada paso de tu viaje de aprendizaje y brindarte la información y la orientación necesarias para alcanzar tus metas en el mundo de la programación, 
+nuestra pagina está dedicada a la enseñanza de lenguajes de programación, adaptándonos a tus intereses y nivel. Ofrecemos cursos desde principiante hasta avanzado en una variedad de lenguajes, 
+como HTML, CSS, JavaScript, Python, Java, C++, Ruby, entre otros."
+
+Encabezado - Sobre Nosotros
+
+Pagina1 - Opciones: Principiante, Intermedio o, Experto/Avanzado
+
+Pagina2 ﾖ Selecci￳n de Lenguaje
+
+Pagina3 - Temas
+
+________________
+Pie -  copyright
+=======
+"Nuestra página web es tu destino definitivo para aprender lenguajes de programación y adquirir habilidades esenciales en un mundo impulsado por la tecnología. 
+Estamos aquí para apoyarte en cada paso de tu viaje de aprendizaje y brindarte la información y la orientación necesarias para alcanzar tus metas en el mundo de la programación, 
+nuestra pagina está dedicada a la enseñanza de lenguajes de programación, adaptándonos a tus intereses y nivel. Ofrecemos cursos desde principiante hasta avanzado en una variedad de lenguajes, 
+como HTML, CSS, JavaScript, Python, Java, C++, Ruby, entre otros."
+
+Encabezado - Sobre Nosotros
+
+Pagina1 - Opciones: Principiante, Intermedio o, Experto/Avanzado
+
+Pagina2 ﾖ Selecci￳n de Lenguaje
+
+Pagina3 - Temas
+
+________________
+Pie -  copyright
+>>>>>>> 2b66cd9 (Pag404)
