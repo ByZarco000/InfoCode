@@ -1,4 +1,4 @@
-    .body {
+    body {
         background-color: cornsilk;
     }
 
@@ -36,52 +36,39 @@
     }
 
     .card-group {
-        display: flex;
         justify-content: center;
-        margin-bottom: 10px;
         /* Espacio entre grupos de tarjetas */
         margin-top: 10px;
     }
 
     .card {
         cursor: pointer;
-        /* Cambia el cursor a una manita en hover */
-        width: 200px;
         transition: transform 0.3s;
         max-width: 18rem;
-        margin: 0 10px;
-        /* Espacio entre tarjetas dentro del grupo */
-        border-top: 10px solid transparent; /* Estilo de borde superior transparente para que no se vea */
-        border: 1px solid black;
-    }    
-
+        border: 2px solid black; /* Agregar borde negro en todos los lados */
+    }
+    
     .card:hover {
         transform: scale(1.1);
-        /* Aplicar escala de 1.1 en hover para agrandar */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        /* Opcional: agregar sombra */
     }
-
+    
     .card-body {
         background-color: black;
     }
-
+    
     .card-header {
         background-color: darkcyan;
         color: white;
         text-align: justify;
-        /* Alinea el texto a la izquierda */
         font-family: Consolas;
-        /* Fuente del texto */
-        padding: 10px;     
+        padding: 20px;     
     }
-
+    
     .card-text {
         background-color: #f0f0f0;
         color: #000;
         text-align: justify;
-        /* Alinea el texto a la izquierda */
         font-family: Consolas;
-        /* Fuente del texto */
         padding: 10px;        
     }
+        
