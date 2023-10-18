@@ -1,0 +1,49 @@
+    /* --------------------- ENCABEZADO --------------------- */
+    /* Estilo para la barra de navegación */
+    .navbar {
+        background-color: black;
+        /* Color de fondo similar al encabezado */
+        padding: 10px;
+        /* Espacio interior para separar el contenido */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    /* Estilo para los enlaces del menú de navegación */
+    .nav-link {
+        color: white;
+        /* Color blanco */
+        font-family: Consolas, monospace;
+        /* Fuente Consolas o similar */
+    }
+
+    .nav-link:hover {
+        color: red;
+        /* Cambia el color del texto a rojo cuando el mouse se coloca sobre el enlace */
+    }
+
+
+    /* --------------------- NAVS --------------------- */
+
+    .tab-content {
+        padding: 40px;
+        /* Espacio interior para separar el contenido */
+    }
+
+    .nav-link:vav {
+        background-color: blue;
+    }
+
+    .custom-tab {
+        background-color: #337ab7;
+        /* Cambia el color de fondo a tu preferencia */
+        color: #fff;
+        /* Cambia el color del texto si es necesario */
+    }
+
+    .tab-content-container {
+        max-height: 400px; /* Ajusta la altura máxima según tus necesidades */
+        overflow-y: auto;
+    }
