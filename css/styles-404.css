@@ -1,36 +1,32 @@
 body {   
-    background-color: fff;
-    background-image: url("/img/footer/404-error-page-not-found.png");
-    /* Reemplaza './ruta/de/la/imagen.jpg' con la ruta real de tu imagen de fondo */
+    background-color: #fff;
+    background-image: url("../img/footer/404-error-page-not-found.png");
     background-size: 1000px;
-    /* Ajusta la imagen de fondo al tamaño de la ventana del navegador */
     background-repeat: no-repeat;
-    /* Evita que la imagen de fondo se repita */
     background-attachment: fixed;
-    /* Fija la imagen de fondo para que no se desplace con el contenido */
-    background-position: center; /*Centramos contenido c:*/
-    }
+    background-position: center;
+}
 
-    .container {
-        margin-top: 1px;
-    }
+.container {
+    margin-top: 1px;
+}
 
-    h1 {
-        font-size: 36px;
-        color: #333;
-    }
+h1 {
+    font-size: 36px;
+    color: #333;
+}
 
-    p {
-        font-size: 18px;
-        color: #666;
-    }
+p {
+    font-size: 18px;
+    color: #666;
+}
 
-    a {
-        text-decoration: none;
-        color: #007BFF;
-        text-align: center;
-    }
+a {
+    text-decoration: none;
+    color: #007BFF;
+    text-align: center;
+}
 
-    a:hover {
-        text-decoration: underline; 
-    }
+a:hover {
+    text-decoration: underline;
+}
