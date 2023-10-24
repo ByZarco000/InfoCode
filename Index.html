@@ -1,188 +1,185 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprender a Programar - InfoCode</title>
-    <meta name="description"
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprender a Programar - InfoCode</title>
+  <meta name="description"
     content="Página para aprender distintos lenguajes de programación, puedes escoger el lenguaje de tu interés y los temas que quieras consultar.">
-    <link rel="icon" href="./img/footer/ico.png" type="image/x-icon"
-      sizes="16x16 32x32">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
-  </head>
-  <body>
+  <meta name="keywords"
+    content="Aprender a programar, Lenguajes de programación, Cursos de programación, HTML, CSS, JavaScript, Programación para principiantes, Programación intermedia, Programación avanzada, InfoCode, Desarrollo web, Digital Education Ltd">
+  <link rel="icon" href="./img/footer/ico.png" type="image/x-icon" sizes="16x16" alt="icono pagina">
+  <link rel="icon" href="./img/footer/ico.png" type="image/x-icon
+      sizes=" 16x16 32x32 alt="icono pagina">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
 
-    <header>
-      <!-- Barra de navegación -->
-      <nav class="navbar">
-        <div class="Logo">
-          <!-- Logotipo y nombre de la página -->
-          <a class="navbar-brand" href="#">
-            <img src="./img/footer/Logo.png" alt="Logo de tu página"
-              class="img-fluid" width="100" height="100">
-          </a>
-        </div>
-        <!-- Menú de navegación -->
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#" onclick="location.reload();">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Soporte</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<body>
 
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="toast-header">
-        <img src="..." class="rounded me-2" alt="...">
-        <strong class="me-auto">Bootstrap</strong>
-        <small class="text-muted">11 mins ago</small>
-        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+  <header>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+      <div class="Logo">
+        <!-- Logotipo y nombre de la página -->
+        <a class="navbar-brand" href="#">
+          <img src="./img/footer/Logo.png" alt="Logo Pagina" class="img-fluid" width="100" height="100">
+        </a>
       </div>
-      <div class="toast-body">
-        Hello, world! This is a toast message.
+      <!-- Menú de navegación -->
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="location.reload();">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Soporte</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small class="text-muted">11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row justify-content-end">
+      <!-- Bloque de cuadrícula 1 -->
+      <div class="col-md-4">
+        <a href="./views/select.html?selectedCard=htmlCard" style="text-decoration: none; color: inherit;">
+          <div class="card mb-4 border-black">
+            <!-- Aplica la clase de borde personalizada -->
+            <img src="./img/cards/1.png" class="card-img-top" alt="Principiante">
+            <div class="card-body">
+              <h5 class="level-title">1. Principiante <span class="badge badge-gratis">Gratis</span></h5>
+              <p class="level-description">Este curso está diseñado para
+                principiantes en programación. Aprenderás los fundamentos de
+                HTML, CSS y JavaScript, los lenguajes esenciales para crear
+                sitios web interactivos.</p>
+              <hr> <!-- Línea de separación -->
+              <div class="programming-languages">
+                <div class="programming-language-rectangle">
+                  <img src="./img/cards/html.png" alt="HTML icon">
+                  HTML
+                </div>
+                <div class="programming-language-rectangle">
+                  <img src="./img/cards/css.png" alt="CSS icon">
+                  CSS
+                </div>
+                <div class="programming-language-rectangle">
+                  <img src="./img/cards/js.png" alt="JavaScript icon">
+                  JavaScript
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Bloque de cuadrícula 2 -->
+      <div class="col-md-4">
+        <a href="./select.html?selectedCard=cssCard" style="text-decoration: none; color: inherit;">
+          <div class="card mb-4 border-black">
+            <!-- Aplica la clase de borde personalizada -->
+            <img src="./img/cards/2.png" class="card-img-top" alt="Intermedio">
+            <div class="card-body">
+              <h5 class="level-title">2. Intermedio <span class="badge badge-gratis">Gratis</span></h5>
+              <p class="level-description">Este curso es para aquellos con
+                experiencia en programación. Explorarás lenguajes como Python,
+                Java y C++, y aprenderás a desarrollar aplicaciones más
+                complejas y eficientes.</p>
+              <hr> <!-- Línea de separación -->
+              <div class="programming-languages">
+                <div class="programming-language-rectangle">
+                  <img src="./img/cards/python.png" alt="Python icon">
+                  Python
+                </div>
+                <div class="programming-language-rectangle">
+                  <img src="./img/cards/java.png" alt="Java icon">
+                  Java
+                </div>
+                <div class="programming-language-rectangle">
+                  <img src="./img/cards/c++.png" alt="C++ icon">
+                  C++
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Bloque de cuadrícula 3 -->
+      <div class="col-md-4">
+        <a href="./select.html?selectedCard=jsCard" style="text-decoration: none; color: inherit;">
+          <div class="card mb-4 border-black">
+            <!-- Aplica la clase de borde personalizada -->
+            <img src="./img/cards/3.jpg" class="card-img-top" alt="Avanzado">
+            <div class="card-body">
+              <h5 class="level-title">3. Avanzado/Experto <span class="badge badge-gratis">Gratis</span></h5>
+              <p class="level-description">Este curso es para expertos en
+                programación que desean dominar lenguajes como Haskell, Prolog y
+                Perl. Desarrollarás aplicaciones de alto rendimiento y
+                resolverás problemas complejos.</p>
+              <hr> <!-- Línea de separación -->
+              <div class="programming-languages">
+                <div class="programming-language-rectangle">
+                  <img src="./img/cards/haskell.png" alt="Ruby icon">
+                  Haskell
+                </div>
+                <div class="programming-language-rectangle">
+                  <img src="./img/cards/prolog.png" alt="PHP icon">
+                  Prolog
+                </div>
+                <div class="programming-language-rectangle">
+                  <img src="./img/cards/perl.png" alt="Swift icon">
+                  Perl
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
+  </div>
 
-    <div class="container mt-5">
-      <div class="row justify-content-end">
-        <!-- Bloque de cuadrícula 1 -->
-        <div class="col-md-4">
-          <a href="./select.html?selectedCard=htmlCard" style="text-decoration: none; color: inherit;">
-            <div class="card mb-4 border-black">
-              <!-- Aplica la clase de borde personalizada -->
-              <img src="./img/cards/1.png" class="card-img-top" alt="Producto 1">
-              <div class="card-body">
-                <h5 class="level-title">1. Principiante <span
-                    class="badge badge-gratis">Gratis</span></h5>
-                <p class="level-description">Este curso está diseñado para
-                  principiantes en programación. Aprenderás los fundamentos de
-                  HTML, CSS y JavaScript, los lenguajes esenciales para crear
-                  sitios web interactivos.</p>
-                <hr> <!-- Línea de separación -->
-                <div class="programming-languages">
-                  <div class="programming-language-rectangle">
-                    <img src="./img/cards/html.png" alt="HTML icon">
-                    HTML
-                  </div>
-                  <div class="programming-language-rectangle">
-                    <img src="./img/cards/css.png" alt="CSS icon">
-                    CSS
-                  </div>
-                  <div class="programming-language-rectangle">
-                    <img src="./img/cards/js.png" alt="JavaScript icon">
-                    JavaScript
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+  <footer>
+    <section class="section-description">
+      <p style="font-family: Consolas; font-weight: bold;">InfoCode</p>
+      <p>"Nuestra página web es tu destino definitivo para aprender lenguajes
+        de programación y adquirir habilidades esenciales en un mundo
+        impulsado por la tecnología.
+        Estamos aquí para apoyarte en cada paso de tu viaje de aprendizaje y
+        brindarte la información y la orientación necesarias para alcanzar tus
+        metas en el mundo de la programación,
+        nuestra pagina está dedicada a la enseñanza de lenguajes de
+        programación, adaptándonos a tus intereses y nivel. Ofrecemos cursos
+        desde principiante hasta avanzado en una variedad de lenguajes, como
+        HTML, CSS, JavaScript, Python, Java, C++, Ruby, entre otros." </p>
+    </section>
 
-        <!-- Bloque de cuadrícula 2 -->
-        <div class="col-md-4">
-          <a href="./select.html?selectedCard=cssCard" style="text-decoration: none; color: inherit;">
-            <div class="card mb-4 border-black">
-              <!-- Aplica la clase de borde personalizada -->
-              <img src="./img/cards/2.png" class="card-img-top" alt="Producto 2">
-              <div class="card-body">
-                <h5 class="level-title">2. Intermedio <span
-                    class="badge badge-gratis">Gratis</span></h5>
-                <p class="level-description">Este curso es para aquellos con
-                  experiencia en programación. Explorarás lenguajes como Python,
-                  Java y C++, y aprenderás a desarrollar aplicaciones más
-                  complejas y eficientes.</p>
-                <hr> <!-- Línea de separación -->
-                <div class="programming-languages">
-                  <div class="programming-language-rectangle">
-                    <img src="./img/cards/python.png" alt="Python icon">
-                    Python
-                  </div>
-                  <div class="programming-language-rectangle">
-                    <img src="./img/cards/java.png" alt="Java icon">
-                    Java
-                  </div>
-                  <div class="programming-language-rectangle">
-                    <img src="./img/cards/c++.png" alt="C++ icon">
-                    C++
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <!-- Bloque de cuadrícula 3 -->
-        <div class="col-md-4">
-          <a href="./select.html?selectedCard=jsCard" style="text-decoration: none; color: inherit;">
-            <div class="card mb-4 border-black">
-              <!-- Aplica la clase de borde personalizada -->
-              <img src="./img/cards/3.jpg" class="card-img-top" alt="Producto 3">
-              <div class="card-body">
-                <h5 class="level-title">3. Avanzado/Experto <span
-                    class="badge badge-gratis">Gratis</span></h5>
-                <p class="level-description">Este curso es para expertos en
-                  programación que desean dominar lenguajes como Haskell, Prolog y
-                  Perl. Desarrollarás aplicaciones de alto rendimiento y
-                  resolverás problemas complejos.</p>
-                <hr> <!-- Línea de separación -->
-                <div class="programming-languages">
-                  <div class="programming-language-rectangle">
-                    <img src="./img/cards/haskell.png" alt="Ruby icon">
-                    Haskell
-                  </div>
-                  <div class="programming-language-rectangle">
-                    <img src="./img/cards/prolog.png" alt="PHP icon">
-                    Prolog
-                  </div>
-                  <div class="programming-language-rectangle">
-                    <img src="./img/cards/perl.png" alt="Swift icon">
-                    Perl
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
+    <!-- Copyright y otros contenidos -->
+    <div class="p-5" style="font-family: Consolas; color: white; background-color: black;">
+      <span style="float: left;">Copyright © 2021 Digital Education Ltd</span>
+      <span style="float: right;">
+        <a href="#" class="footer-link">Cancellation Policy</a> |
+        <a href="#" class="footer-link">Privacy Policy</a> |
+        <a href="#" class="footer-link">Terms of service</a>
+      </span>
     </div>
+  </footer>
 
-    <footer>
-      <section class="section-description">
-        <p style="font-family: Consolas; font-weight: bold;">InfoCode</p>
-        <p>"Nuestra página web es tu destino definitivo para aprender lenguajes
-          de programación y adquirir habilidades esenciales en un mundo
-          impulsado por la tecnología.
-          Estamos aquí para apoyarte en cada paso de tu viaje de aprendizaje y
-          brindarte la información y la orientación necesarias para alcanzar tus
-          metas en el mundo de la programación,
-          nuestra pagina está dedicada a la enseñanza de lenguajes de
-          programación, adaptándonos a tus intereses y nivel. Ofrecemos cursos
-          desde principiante hasta avanzado en una variedad de lenguajes, como
-          HTML, CSS, JavaScript, Python, Java, C++, Ruby, entre otros." </p>
-      </section>
+  <!-- Scripts de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-      <!-- Copyright y otros contenidos -->
-      <div class="p-5"
-        style="font-family: Consolas; color: white; background-color: black;">
-        <span style="float: left;">Copyright © 2021 Digital Education Ltd</span>
-        <span style="float: right;">
-          <a href="#" class="footer-link">Cancellation Policy</a> |
-          <a href="#" class="footer-link">Privacy Policy</a> |
-          <a href="#" class="footer-link">Terms of service</a>
-        </span>
-      </div>
-    </footer>
-
-    <!-- Scripts de Bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
 </html>

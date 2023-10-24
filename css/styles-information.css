@@ -1,3 +1,6 @@
+    body{
+        font-family: "Consolas", monospace;
+    }
     /* --------------------- ENCABEZADO --------------------- */
     /* Estilo para la barra de navegación */
     .navbar {
@@ -22,13 +25,16 @@
     .nav-link:hover {
         color: red;
         /* Cambia el color del texto a rojo cuando el mouse se coloca sobre el enlace */
+        
     }
 
 
     /* --------------------- NAVS --------------------- */
 
     .tab-content {
-        padding: 40px;
+        margin-top: 40px;
+        margin-left: 300px;
+        margin-right: 300px;
         /* Espacio interior para separar el contenido */
     }
 
@@ -47,3 +53,15 @@
         max-height: 400px; /* Ajusta la altura máxima según tus necesidades */
         overflow-y: auto;
     }
+
+    .consola-font {
+        font-family: "Consolas", monospace;
+    }
+
+    pre {
+        font-family: 'Consolas', monospace; /* Tipo de letra Consola */
+        color: black; /* Texto negro */
+        padding: 10px; /* Espacio alrededor del código */
+        background-color: #f0f0f0; /* Fondo gris */
+        white-space: pre-wrap; /* Wrap de líneas largas */
+      }

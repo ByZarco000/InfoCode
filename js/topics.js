@@ -9,9 +9,9 @@ cards.forEach((card) => {
         let url = '';
 
         if (cardHeader === 'HTML') {
-            url = 'Information.html'; 
+            url = 'information-html.html'; 
         } else if (cardHeader === 'CSS') {
-            url = 'pagina_css.html'; 
+            url = 'information-css.html'; 
         } else if (cardHeader === 'JavaScript') {
             url = 'pagina_js.html'; 
         } else if (cardHeader === 'Prolog'){
