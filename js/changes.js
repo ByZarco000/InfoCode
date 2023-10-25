@@ -3,7 +3,7 @@ const selectedCard = urlParams.get('selectedCard');
 const selectedImage = urlParams.get('image');
 
 if (selectedCard === 'cssCard') {
-    document.querySelector('#htmlCard .card-header').textContent = 'Phyton';
+    document.querySelector('#htmlCard .card-header').textContent = 'Python';
     document.querySelector('#htmlCard .card-text').textContent = 'Python es un lenguaje de programación de alto nivel, conocido por su legibilidad y simplicidad de sintaxis.';
     document.querySelector('#htmlCard .card-img-top').src = selectedImage || '../img/cards/python.png';
 

@@ -14,8 +14,10 @@ cards.forEach((card) => {
             url = 'information-css.html'; 
         } else if (cardHeader === 'JavaScript') {
             url = 'information-js.html'; 
-        } else if (cardHeader === 'Prolog'){
-            url = ''
+        } else if (cardHeader === 'Python'){
+            url = 'information-python.html';
+        }else if (cardHeader === 'Java'){
+            url = 'information-Java.html';
         }
 
         if (url) {

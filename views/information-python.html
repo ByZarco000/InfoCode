@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información - InfoCode</title>
+    <meta name="description"
+        content="Información detallada sobre los temas clave del lenguaje de programación, tutoriales, ejemplos y recursos para aprender y dominar el lenguaje.">
+
+    <meta name="keywords" content="Información, Lenguaje de programación, Tutoriales, Ejemplos, Recursos">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles-information.css">
+</head>
+
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav class="navbar">
+            <div class="Logo">
+                <!-- Logotipo y nombre de la página -->
+                <a class="navbar-brand" href="../Index.html">
+                    <img src="../img/footer/Logo.png" alt="Logo página" class="img-fluid" width="100" height="100">
+                </a>
+            </div>
+            <!-- Menú de navegación -->
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../Index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Soporte</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <!-- Pestaña 1 -->
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active custom-tab" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1"
+                type="button" role="tab" aria-controls="tab1" aria-selected="true">Introducción a PYTHON</button>
+        </li>
+
+        <!-- Pestaña 2 -->
+        <li class="nav-item" role="presentation">
+            <button class="nav-link custom-tab" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button"
+                role="tab" aria-controls="tab2" aria-selected="false">Tema 2</button>
+        </li>
+
+        <!-- Pestaña 3 -->
+        <li class="nav-item" role="presentation">
+            <button class="nav-link custom-tab" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button"
+                role="tab" aria-controls="tab3" aria-selected="false">Tema 3</button>
+        </li>
+    </ul>
+
+    <div class="tab-content" id="myTabContent">
+        <!-- Contenido de la Pestaña 1 -->
+        <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+            <h2>Introducción a PYTHON</h2>
+            <hr>
+            <p>En los siguientes ejemplos, la entrada y la salida se distinguen por la presencia o ausencia de prompts
+                (>>> y …): para repetir el ejemplo, escribe todo después del prompt, cuando aparece; las líneas que no
+                comienzan con un prompt son emitidas desde el intérprete. Ten en cuenta que en un ejemplo un prompt
+                secundario en una linea en solitario significa que debes escribir una línea en blanco. Esto se utiliza
+                para finalizar un comando multilínea.
+
+                Puede alternar la visualización de mensajes y salida haciendo clic en >>> en la esquina superior derecha
+                de un cuadro de ejemplo. Si oculta las indicaciones y la salida para un ejemplo, puede copiar y pegar
+                fácilmente las líneas de entrada en su intérprete.
+
+                Muchos de los ejemplos de este manual, incluso aquellos ingresados en el prompt interactivo, incluyen
+                comentarios. Los comentarios en Python comienzan con el carácter numeral, #, y se extienden hasta el
+                final visible de la línea. Un comentario quizás aparezca al comienzo de la línea o seguido de espacios
+                en blanco o código, pero no dentro de una cadena de caracteres. Un carácter numeral dentro de una cadena
+                de caracteres es sólo un carácter numeral. Ya que los comentarios son para aclarar código y no son
+                interpretados por Python, pueden omitirse cuando se escriben los ejemplos.</p>
+
+            <p>Algunos ejemplos:</p>
+            <pre># this is the first comment
+                    spam = 1  # and this is the second comment
+                              # ... and now a third!
+                    text = "# This is not a comment because it's inside quotes."</pre>
+
+            <h5>Usando Python como una calculadora</h5>
+            <p>Probemos algunos comandos simples de Python. Inicia el intérprete y espera el prompt primario, >>>. (No
+                debería tardar mucho.)</p>
+            <h5>Números</h5>
+            <p>El intérprete funciona como una simple calculadora: puedes introducir una expresión en él y este
+                escribirá los valores. La sintaxis es sencilla: los operadores
+                <code>+</code>,<code>-</code>,<code>*</code> y <code>/</code> se pueden usar para realizar
+                operaciones aritméticas; los paréntesis (<code>()</code>) pueden ser usados para agrupar. Por ejemplo:
+            </p>
+
+            <pre>2 + 2
+                4
+                50 - 5*6
+                20
+                (50 - 5*6) / 4
+                5.0
+                8 / 5  # division always returns a floating point number
+                1.6</pre>
+
+
+            <p>Los números enteros (ej. <code>2</code>,<code>4</code>, <code>20</code>) tienen tipo int, los que tienen
+                una parte fraccionaria (por ejemplo
+                5.0, 1.6) tiene el tipo float. Vamos a ver más acerca de los tipos numéricos más adelante en el
+                tutorial.
+
+                La división (/) siempre retorna un número decimal de punto flotante. Para hacer floor division y obtener
+                un número entero como resultado puede usarse el operador //; para calcular el resto puedes usar %:</p>
+
+            <pre>17 / 3  # classic division returns a float
+                    5.666666666666667
+                    
+                    17 // 3  # floor division discards the fractional part
+                    5
+                    17 % 3  # the % operator returns the remainder of the division
+                    2
+                    5 * 3 + 2  # floored quotient * divisor + remainder
+                    17</pre>
+
+            <p>Con Python, es posible usar el operador <code>**</code> para calcular potencias 1:</p>
+
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/DAdRO6ByBoU?si=CCbxFU-AGbcqyLhY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></center>
+        </div>
+
+        <!-- Contenido de la Pestaña 2 -->
+        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+            <h2>Pestaña 2</h2>
+            <p>Este es el contenido de la Pestaña 2.</p>
+            <img src="ruta_de_tu_imagen_2.jpg" alt="Imagen 2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/video_ID_2" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+
+        <!-- Contenido de la Pestaña 3 -->
+        <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+            <h2>Pestaña 3</h2>
+            <p>Este es el contenido de la Pestaña 3.</p>
+            <img src="ruta_de_tu_imagen_3.jpg" alt="Imagen 3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/video_ID_3" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+
+
+        <!--Footer-->
+        <div class="container">
+            <footer class="py-3 my-4">
+                <p class="text-center text-muted">Copyright © 2021 Digital Education Ltd</p>
+            </footer>
+        </div>
+        <!--Fin-->
+
+        <!-- Scripts de Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
