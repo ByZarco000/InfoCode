@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información - InfoCode</title>
+    <meta name="description"
+        content="Información detallada sobre los temas clave del lenguaje de programación, tutoriales, ejemplos y recursos para aprender y dominar el lenguaje.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles-information.css">
+</head>
+
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav class="navbar">
+            <div class="Logo">
+                <!-- Logotipo y nombre de la página -->
+                <a class="navbar-brand" href="../Index.html">
+                    <img src="../img/footer/Logo.png" alt="Logo de tu página" class="img-fluid" width="100"
+                        height="100">
+                </a>
+            </div>
+            <!-- Menú de navegación -->
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../Index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Soporte</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <!-- Pestaña 1 -->
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active custom-tab" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1"
+                type="button" role="tab" aria-controls="tab1" aria-selected="true">Introducción a JS</button>
+        </li>
+
+        <!-- Pestaña 2 -->
+        <li class="nav-item" role="presentation">
+            <button class="nav-link custom-tab" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button"
+                role="tab" aria-controls="tab2" aria-selected="false">Tema 2</button>
+        </li>
+
+        <!-- Pestaña 3 -->
+        <li class="nav-item" role="presentation">
+            <button class="nav-link custom-tab" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button"
+                role="tab" aria-controls="tab3" aria-selected="false">Tema 3</button>
+        </li>
+    </ul>
+
+    <div class="tab-content" id="myTabContent">
+        <!-- Contenido de la Pestaña 1 -->
+        <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+            <h2>Introducción a CSS</h2>
+            <hr>
+            <h5>¿Qué es JavaScript?</h5>
+            <p>JavaScript es un lenguaje de programación que se utiliza principalmente para crear páginas web dinámicas.
+
+                Una página web dinámica es aquella que incorpora efectos como texto que aparece y desaparece,
+                animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
+
+                Técnicamente, JavaScript es un lenguaje de programación interpretado, por lo que no es necesario
+                compilar los programas para ejecutarlos. En otras palabras, los programas escritos con JavaScript se
+                pueden probar directamente en cualquier navegador sin necesidad de procesos intermedios.</p>
+            <hr>
+
+            <p>Su léxico diferencia entre mayúsculas y minúsculas, los comentarios son como C/C++, el ; es opcional si
+                cada sentencia está en una línea (aunque nosotros recomendamos ponerlo siempre), las declaración de
+                variables no es obligatoria, aunque aconsejable y estas no tienen tipo. Por lo que JavaScript es un
+                lenguaje no tipado, es decir, si declaramos una variable esta puede almacenar tanto números como
+                caracteres. Una gran diferencia con otros lenguajes de programación:</p>
+
+            <pre>
+
+//Esto es un comentario en JavaScript
+ 
+var i;          // declaramos la variable i
+i = 5;          // i vale ahora 5
+i = “Hola”;     // i vale ahora Hola
+j = i;          // j sin declarar y vale Hola
+ 
+/*
+    Esto es un comentario
+         multilinea
+*/
+ 
+alert(j);       //muestra en un pop-up Hola
+                </pre>
+
+            <p>Los tipos de datos en JavaScript pueden ser numéricos, booleanos, cadenas y objetos (función, array,
+                fecha, expresión regular). Los operadores y sentencias son iguales que en C++ y Java. Os mostramos un
+                ejemplo:</p>
+
+            <pre>
+    var numero1, numero2;
+    var cadena1, cadena2;
+    var resultado;
+     
+    numero1 = 5;
+    numero2 = 4;
+     
+    resultado = numero1 + numero2;    //Resultado vale 9
+     
+    cadena1 = “Hola”;
+    cadena2 =”Mundo”;
+     
+    resultado = cadena1 +” “+cadena2; //Resultado vale Hola Mundo
+</pre>
+
+            <p>Las funciones en JavaScript son objetos, y como tales, se pueden usar como cualquier otro valor. Las
+                funciones se crean con la palabra clave function junto a los parámetros sin tipo rodeados por una pareja
+                de paréntesis. Para devolver cualquier valor dentro de una función se usa la instrucción return:</p>
+
+            <pre>    //instrucciones
+                    return alfa + beta;
+                }
+                 
+                ret = suma(2,4);        //ret tomara el valor de 6</pre>
+
+            <p>Todo en JavaScript es un objeto. Un objeto es un contenedor de propiedades (cada propiedad tiene un
+                nombre y un valor), y por tanto, son útiles para coleccionar y organizar datos.</p>
+
+            <pre>
+                    var persona = new Object();
+                     
+                    persona.nombre = "Paco";
+                    persona.apellido = "Jones";</pre>
+
+            <p>Los Arrays, son otro tipo de objeto, se trata de un medio para guardar un conjunto de datos que mantienen
+                una relación. En JavaScript pueden contener datos de diferente tipo:</p>
+
+            <pre>
+                        var aux = new Array();
+                         
+                        aux[1] = 5;
+                        aux[2] = “Hola”;</pre>
+            <hr>
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ye21CYdhm1s?si=PcvBCzD_vf1l9tEB"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></center>
+        </div>
+
+        <!-- Contenido de la Pestaña 2 -->
+        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+            <h2>Pestaña 2</h2>
+            <p>Este es el contenido de la Pestaña 2.</p>
+            <img src="ruta_de_tu_imagen_2.jpg" alt="Imagen 2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/video_ID_2" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+
+        <!-- Contenido de la Pestaña 3 -->
+        <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+            <h2>Pestaña 3</h2>
+            <p>Este es el contenido de la Pestaña 3.</p>
+            <img src="ruta_de_tu_imagen_3.jpg" alt="Imagen 3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/video_ID_3" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <p class="text-center text-muted">Copyright © 2021 Digital Education Ltd</p>
+        </footer>
+    </div>
+    <!--Fin-->
+
+    <style>
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+        }
+    </style>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

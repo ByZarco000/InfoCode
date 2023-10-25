@@ -13,9 +13,9 @@ cards.forEach((card) => {
         } else if (cardHeader === 'CSS') {
             url = 'information-css.html'; 
         } else if (cardHeader === 'JavaScript') {
-            url = 'pagina_js.html'; 
+            url = 'information-js.html'; 
         } else if (cardHeader === 'Prolog'){
-            url = 'paginalogg.html'
+            url = ''
         }
 
         if (url) {

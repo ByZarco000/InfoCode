@@ -1,6 +1,9 @@
     body{
         font-family: "Consolas", monospace;
+        text-align: justify;
+        background-color: #fff;
     }
+
     /* --------------------- ENCABEZADO --------------------- */
     /* Estilo para la barra de navegación */
     .navbar {
@@ -9,9 +12,7 @@
         padding: 10px;
         /* Espacio interior para separar el contenido */
         display: flex;
-        justify-content: space-between;
         align-items: center;
-
     }
 
     /* Estilo para los enlaces del menú de navegación */
@@ -28,9 +29,7 @@
         
     }
 
-
     /* --------------------- NAVS --------------------- */
-
     .tab-content {
         margin-top: 40px;
         margin-left: 300px;
@@ -59,9 +58,23 @@
     }
 
     pre {
-        font-family: 'Consolas', monospace; /* Tipo de letra Consola */
-        color: black; /* Texto negro */
+        font-family: 'Consolas', monospace; /* Tipo de letra Consolas o similar */
+        color: black; /* Texto en color negro fuera de los elementos <code> */
         padding: 10px; /* Espacio alrededor del código */
         background-color: #f0f0f0; /* Fondo gris */
         white-space: pre-wrap; /* Wrap de líneas largas */
-      }
+        font-weight: bold;
+    }
+
+    pre code {
+        color: white; /* Texto blanco dentro de los elementos <code> */
+    }
+    
+    
+    code {
+        background: black; /* Fondo negro */
+        color: white; /* Texto blanco dentro de los elementos <code> */
+        padding: 0.125rem 0.25rem;
+        border-radius: 5px; /* Redondeo de bordes */
+    }
+    

@@ -39,7 +39,7 @@
         <!-- Pestaña 1 -->
         <li class="nav-item" role="presentation">
             <button class="nav-link active custom-tab" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1"
-                type="button" role="tab" aria-controls="tab1" aria-selected="true">Introducción a HTML</button>
+                type="button" role="tab" aria-controls="tab1" aria-selected="true">Introducción a CSS</button>
         </li>
 
         <!-- Pestaña 2 -->
@@ -60,8 +60,87 @@
         <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
             <h2>Introducción a CSS</h2>
             <hr>
-            
-            
+            <h5>¿Qué es CSS?</h5>
+            <p>CSS es un lenguaje de hojas de estilos creado para controlar el aspecto o presentación de los documentos
+                electrónicos definidos con HTML y XHTML. CSS es la mejor forma de separar los contenidos y su
+                presentación y es imprescindible para crear páginas web complejas.
+
+                Separar la definición de los contenidos y la definición de su aspecto presenta numerosas ventajas, ya
+                que obliga a crear documentos HTML/XHTML bien definidos y con significado completo (también llamados
+                "documentos semánticos"). Además, mejora la accesibilidad del documento, reduce la complejidad de su
+                mantenimiento y permite visualizar el mismo documento en infinidad de dispositivos diferentes.
+
+                Al crear una página web, se utiliza en primer lugar el lenguaje HTML/XHTML para marcar los contenidos,
+                es decir, para designar la función de cada elemento dentro de la página: párrafo, titular, texto
+                destacado, tabla, lista de elementos, etc.
+
+                Una vez creados los contenidos, se utiliza el lenguaje CSS para definir el aspecto de cada elemento:
+                color, tamaño y tipo de letra del texto, separación horizontal y vertical entre elementos, posición de
+                cada elemento dentro de la página, etc.</p>
+                <hr>
+
+            <h5>Agregar CSS a un documento</h5>
+            <p>Lo primero que se debe hacer es decirle al documento HTML que hay algunas reglas CSS que queremos que
+                use. Hay tres formas diferentes de aplicar CSS a un documento HTML, sin embargo, por ahora, veremos la
+                forma más habitual y útil de hacerlo: vincular el CSS desde el encabezado del documento.
+
+                Crea un archivo en la misma carpeta que tu documento HTML y guárdalo como <code>styles.css</code> La
+                extensión <code>.css</code>
+                muestra que es un archivo CSS.
+
+                Para vincular <code> styles.css</code> a <code>index.html</code>, añade la siguiente línea en algún
+                lugar dentro del
+                <code>&lt;head&gt;</code> del documento HTML:
+            </p>
+            <pre><p>&lt;link&gt; rel="stylesheet" href="styles.css" /></p></pre>
+
+            <p>Este elemento
+                <code>&lt;link&gt;</code> le dice al navegador que hay una hoja de estilo con el atributo
+                <code>rel</code> y la ubicación de esa hoja de
+                estilo como el valor del atributo <code>href.</code> Puedes probar si el CSS funciona añadiendo una
+                regla a
+                <code>styles.css.</code> Usando el editor de código, añade lo siguiente al archivo CSS:
+            </p>
+
+            <pre>
+                h1 {
+                    color: red;
+                  }
+            </pre>
+
+            <h5>Dar formato a elementos HTML</h5>
+            <p>Al poner nuestro título de encabezado en rojo, ya hemos demostrado que podemos elegir un elemento HTML y
+                darle formato. Hacemos esto con un selector de elementos: un selector que coincide directamente con el
+                nombre de un elemento HTML. Para determinar todos los párrafos del documento, se usa el selector
+                <code>p.</code> Para
+                hacer que todos los párrafos se vean verdes se usa:
+            </p>
+
+            <pre>
+                    p {
+                        color: green;
+                      }
+                </pre>
+
+            <p>Puedes determinar múltiples selectores a la vez, separándolos con una coma. Si queremos que todos los
+                párrafos y todos los elementos de la lista sean verdes, el código se verá así:</p>
+
+            <pre>
+                    p,
+                    li {
+                      color: green;
+                    }</pre>
+
+            <pre>&lt;h1&gt;Mi página web&lt;/h1&gt;</pre>
+            <center><img
+                    src="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png"
+                    alt="Ejemplo"></center>
+
+            <hr>
+           <center><iframe width="560" height="315" src="https://www.youtube.com/embed/24gNhTcy6pw?si=m19qKnBLy4tNaJ-o"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe></center> 
         </div>
 
         <!-- Contenido de la Pestaña 2 -->
@@ -82,6 +161,24 @@
                 allowfullscreen></iframe>
         </div>
     </div>
+
+    <!--Footer-->
+    <div class="container">
+        <footer class="py-3 my-4">
+          <p class="text-center text-muted">Copyright © 2021 Digital Education Ltd</p>
+        </footer>
+      </div>
+      <!--Fin-->
+
+      <style>
+    .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+      </style>
 
     <!-- Scripts de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
